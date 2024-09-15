@@ -1,4 +1,4 @@
-
+ 
 let saturate =document.getElementById("saturate");
 let contrast =document.getElementById("contrast");
 let brightness =document.getElementById("brightness");
@@ -53,9 +53,9 @@ upload.onchange = function(){
             }
               
             img.onload = function(){
-                img.width = canvas.width;
-                img.height = canvas.height;
-                ctx.drawImage(img,0,0,canvas.width="600",canvas.height="300");
+                canvas.width = img.width:
+                canvas.height = img.height;
+                ctx.drawImage(img,0,0,canvas.width,canvas.height);
                 img.style.display='none';
 
 
