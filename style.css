@@ -1,4 +1,4 @@
-*{
+  *{
     padding: 0;
     margin: 0;
     font-family: sans-serif;
@@ -10,21 +10,21 @@ body{
 }
 h2{
     color: red;
-    margin: 0 50%;
-    font-size: 40px;
+    margin: 30px 50%;
+    margin-top:50px:
+    font-size: 60px;
     text-shadow: 3px 2px 6px rgb(0, 0, 0);
     letter-spacing: 3px;
 }
 .contimar{
     background-color: #222;
     
-    width: 80vw;
-    height: 60vh;
+    width: 90vw;
     margin: auto;
     padding: 20px;
     border-radius: 10px;
     display: grid;
-    grid-template-columns: 5fr 3fr;
+    grid-template-columns: 4fr 4fr;
 }
 .img{
     
@@ -50,13 +50,13 @@ h2{
 .flaters ul,.flaters ul li{
 display: flex;
 flex-direction: column;
-gap: 25px;
+gap: 70px;
 direction: rtl;
-margin-top:30%;
 }
 .flaters ul li label{
 
     color: #fff;
+    font-size:20px:
 }
 .flaters ul li:last-child{
     flex-direction: row;
@@ -71,7 +71,7 @@ margin-top:30%;
     cursor: pointer;
     text-decoration: none;
 }
-@media screen and (max-width:650px),(max-height:90vh){
+@media screen and (max-width:500px){
     .contimar{
         grid-template-columns: 1fr;
         gap: 50px;
